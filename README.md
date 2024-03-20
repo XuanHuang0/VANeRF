@@ -76,10 +76,10 @@ The output model would be store in `$ROOT//EXPERIMENTS/vanerf/ckpts`.
 If you find our code or paper useful, please consider citing:
 
    ```
-   @inproceedings{huang20243d,
+   @article{huang20243d,
      title={3D Visibility-aware Generalizable Neural Radiance Fields for Interacting Hands},
      author={Huang, Xuan and Li, Hanhui and Yang, Zejun and Wang, Zhisheng and Liang, Xiaodan},
-     booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+     journal={arXiv preprint arXiv:2401.00979},
      year={2024}
    }
    ```
