@@ -2,9 +2,9 @@
 
 This is an official implementation of "[3D Visibility-aware Generalizable Neural Radiance Fields for Interacting Hands](https://arxiv.org/pdf/2401.00979.pdf)".
 
-<img src="C:\Users\Administrator\Desktop\13_nvs.gif" alt="8_nvs" style="zoom: 67%;" /> <img src="C:\Users\Administrator\Desktop\8_nvs.gif" alt="8_nvs" style="zoom: 67%;" />
+<img src="https://github.com/XuanHuang0/VANeRF/assets/13_nvs.gif" alt="8_nvs" style="zoom: 67%;" /> <img src="https://github.com/XuanHuang0/VANeRF/assets/8_nvs.gif" alt="8_nvs" style="zoom: 67%;" />
 
-<img src="C:\Users\Administrator\Desktop\1567_nvs.gif" alt="1567_nvs" style="zoom: 67%;" /><img src="C:\Users\Administrator\Desktop\1586_nvs.gif" alt="1586_nvs" style="zoom: 67%;" />
+<img src="https://github.com/XuanHuang0/VANeRF/assets/1567_nvs.gif" alt="1567_nvs" style="zoom: 67%;" /><img src="https://github.com/XuanHuang0/VANeRF/assets/1586_nvs.gif" alt="1586_nvs" style="zoom: 67%;" />
 
 ## Installation
 
