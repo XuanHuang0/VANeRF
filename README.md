@@ -1,6 +1,6 @@
 # VANeRF: 3D Visibility-aware Generalizable Neural Radiance Fields for Interacting Hands (AAAI 2024)
 
-This is an official implementation of "[3D Visibility-aware Generalizable Neural Radiance Fields for Interacting Hands]([2401.00979.pdf (arxiv.org)](https://arxiv.org/pdf/2401.00979.pdf))".
+This is an official implementation of "[3D Visibility-aware Generalizable Neural Radiance Fields for Interacting Hands](https://arxiv.org/pdf/2401.00979.pdf)".
 
 <img src="C:\Users\Administrator\Desktop\13_nvs.gif" alt="8_nvs" style="zoom: 67%;" /> <img src="C:\Users\Administrator\Desktop\8_nvs.gif" alt="8_nvs" style="zoom: 67%;" />
 
