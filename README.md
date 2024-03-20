@@ -10,18 +10,33 @@ This is an official implementation of "[3D Visibility-aware Generalizable Neural
 
 ## Installation
 
-Please install python dependencies specified in requirements.txt:
+1. Please install python dependencies specified in requirements.txt:
 
-```
-conda create -n vanerf python=3.9
-conda activate vanerf
-pip install -r requirements.txt
-```
+   ```
+   conda create -n vanerf python=3.9
+   conda activate vanerf
+   pip install -r requirements.txt
+   ```
+2. Register and download [MANO](https://mano.is.tue.mpg.de/)  data. Put `MANO_LEFT.pkl` and `MANO_RIGHT.pkl` in folder `$ROOT/smplx/models/mano`.
 
 ## Data preparation
 
-1. Download [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/) dataset and unzip it. (**Noted**: we used the `v1.0_5fps` version and `H+M` subset)
+1. Download [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/) dataset and unzip it. (**Noted**: we used the `v1.0_5fps` version and `H+M` subset) The directory structure of `$ROOT/InterHand2.6M` is expected as follows:
 
+    ```
+   InterHand2.6M    
+   │   ├── annotations 
+   │   │   ├── skeleton.txt
+   │   │   ├── subject.txt  
+   │   │   ├── test    
+   │   │   ├── train  
+   │   │   └── val  
+   │   └── images   
+   │       ├── test 
+   │       ├── train
+   │       └── val 
+   ```
+    
 2. Process the dataset by :
 
    ```
@@ -40,7 +55,8 @@ pip install -r requirements.txt
    #big view variation
    python train.py --config ./configs/vanerf_bvv.json --run_val --model_ckpt ./EXPERIMENTS/vanerf/ckpts/model.ckpt
    ```
-
+   Results will be stored in folder `$ROOT/EXPERIMENTS/vanerf/`.
+   
 3. Visualize the dynamic results:
 
    ```
@@ -48,10 +64,12 @@ pip install -r requirements.txt
    ```
 
 ## Training on InterHand2.6M dataset
+Execute train.py script to train the model on the InterHand2.6M dataset.
 
-```
-python train.py --config ./configs/vanerf.json --num_gpus 4
-```
+   ```
+   python train.py --config ./configs/vanerf.json --num_gpus 4
+   ```
+The output model would be store in `$ROOT//EXPERIMENTS/vanerf/ckpts`.
 
 ## Citation
 
