@@ -45,7 +45,7 @@ This is an official implementation of "[3D Visibility-aware Generalizable Neural
 
 ## Evaluation
 
-1. Download the [pretrained model](https://drive.google.com/file/d/1lAxA2lR8sOOFw1XwgBberHDgV2C_XQwM/view?usp=sharing) and put it to `$ROOT/EXPERIMENTS/vanerf/ckpts/model.ckpt`.
+1. Download the [pretrained model](https://drive.google.com/file/d/1QnUe5QaN4FQEHA2YbEEe1x81mPYHghnX/view?usp=sharing) and put it to `$ROOT/EXPERIMENTS/vanerf/ckpts/model.ckpt`.
 
 2. Run evaluation:
 
